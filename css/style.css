@@ -1,0 +1,483 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    background-color: antiquewhite;
+    display: flex;
+}
+
+.side-kiri {
+    width: 20%;
+    min-height: 600px;
+    background-color: rgb(0, 62, 38);
+}
+
+.side-kanan {
+    width: 80%;
+    min-height: 600px;
+    background-color: rgb(243, 241, 253);
+}
+
+.identitas {
+    display: flex;
+    min-height: 40px;
+    width: auto;
+    margin-bottom: 40px;
+}
+
+.logo {
+    width: 20%;
+    height: 40px;
+    padding: 10px;
+}
+.logo img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.judul {
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    color: white;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.side-menu {
+    width: auto;
+    border: 2px;
+    color: aliceblue;
+    padding: 10px 0px 10px 20px;
+    align-items: center;
+}
+
+.side-menu a:hover {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.side-menu a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.side-menu img {
+    width: 25px;
+    height: 25px;
+}
+
+.kepala {
+    width: auto;
+    min-height: 40px;
+    background-color: rgb(3, 85, 53);
+    padding: 12px 30px 0px 0px;
+    display: flex;
+}
+
+.kepala-garis {
+    width: 10%;
+    height: 30px;
+}
+
+.kepala-garis img {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.logout {
+    width: 90%;
+    height: 30px;
+    text-align: right;
+}
+
+.logout a {
+    margin-top:20px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.judul-halaman {
+    width: auto;
+    min-height: 40px;
+    text-align: right;
+    background-color: #fff;
+    display: flex;
+}
+
+h1{
+    text-align: left;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(0, 62, 38);
+    padding: 10px;
+    margin-left: 10px;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    font-style: italic;
+    margin: 5px;
+}
+
+h5 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.halaman-beranda {
+    width: 93%;
+    min-height: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 0px 0px 15px;
+    display: flex;
+}
+
+.kotak-info {
+    width: 31%;
+    height: 120px;
+    border-radius: 10px;
+    background-color: rgb(0, 62, 38);
+    margin:10px;
+    display: flex;
+}
+
+.info-karyawan {
+    width: 60%;
+    padding: 15px;
+    height: auto;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+.info-gambar {
+    width: 40%;
+    height: auto;
+}
+
+.info-gambar img{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.kotak_search {
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.kotak_tambah {
+    width: 60%;
+    text-align: left;
+}
+
+.kotak_cari {
+    width: 35%;
+    text-align: right;
+}
+
+.kotak_tombol_cari {
+    width: 5%;
+    text-align: right;
+}
+
+.kotak_input {
+    width: 48%;
+    height: auto;
+    padding: 10px;
+}
+
+.label {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+input[type=text], [type=date] {
+    width: 90%;
+    height: 19px;
+    border-radius: 5px solid;
+    margin: 5px;
+    padding: 5px;
+}
+
+input[type=file] {
+    margin:5px;
+}
+
+select {
+    width: 93%;
+    height: 35px;
+    border-radius: 5px solid;
+    padding: 5px;
+    margin: 5px;
+}
+
+input[type=submit] {
+    width: 30%;
+    height: 35px;
+    border: none;
+    margin: 5px;
+    background-color: rgb(24, 137, 65);
+    cursor: pointer;
+    color: #fff;
+    margin-top: 15px;
+    font-weight: bold;
+}
+ input[type=submit]:hover {
+    background-color: rgb(13, 75, 35);
+}
+
+input[type=reset] {
+    width: 30%;
+    height: 35px;
+    border: none;
+    margin: 5px;
+    background-color: rgb(206, 67, 21);
+    cursor: pointer;
+    color: #fff;
+    margin: 15px 0px 0px 15px;
+    font-weight: bold;
+}
+ input[type=reset]:hover {
+    background-color: rgb(240, 105, 21);
+}
+
+.tambah button {
+    width: auto;
+    height: 35px;
+    border: none;
+    margin: 5px 0px 10px 0px;
+    background-color: rgb(24, 137, 65);
+    cursor: pointer;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.tambah button:hover {
+    background-color: rgb(47, 179, 93);
+}
+
+button {
+    width: 150px;
+    height: 35px;
+    border: none;
+    margin: 10px;
+    background-color: rgb(209, 17, 17);
+    cursor: pointer;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(235, 26, 26);
+}
+
+.aksi_edit button {
+    width: 50px;
+    height: 25px;
+    border: none;
+    background-color: rgb(9, 170, 234);
+    cursor: pointer;
+    color: #fff;
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 5px;
+}
+.aksi_edit button:hover {
+    background-color:  rgb(24, 183, 247);
+}
+
+.aksi_detail button {
+    width: 50px;
+    height: 25px;
+    border: none;
+    background-color: rgb(234, 137, 9);
+    cursor: pointer;
+    color: #fff;
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 5px;
+}
+.aksi_detail button:hover {
+    background-color:  rgb(250, 153, 27);
+}
+
+.aksi_hapus button {
+    width: 50px;
+    height: 25px;
+    border: none;
+    background-color: rgb(226, 5, 1);
+    cursor: pointer;
+    color: #fff;
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 5px;
+}
+.aksi_hapus button:hover {
+    background-color:  rgb(252, 41, 38);
+}
+
+.halaman-data {
+    width: 95%;
+    min-height: 400px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0px 0px 15px;
+}
+
+.kotak-judul-detail {
+    width: 94%;
+    min-height: 20px;
+    background-color: rgb(0, 62, 38);
+    padding: 15px;
+    border-radius: 10px 10px 0px 0px;
+    margin: 10px 0px 0px 15px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.judul-detail {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    padding: 5px;
+    width: 35%;
+    margin-left: 20px;
+}
+
+.link {
+    font-size: 18px;
+    text-align: right;
+    padding: 15px;
+    width: 65%;
+}
+
+.link a{
+    text-decoration: none;
+}
+
+.detail-foto {
+    width: 25%;
+    min-height: 50px;
+    padding: 10px;
+    color: #fff;
+    background-color: rgb(0, 62, 38);
+    text-align: center;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.detail-foto img {
+    width: 140px;
+    height: 180px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.detail-identitas {
+    width: 75%;
+    height: auto;
+    padding: 10px;
+    background-color: rgb(0, 62, 38);
+    border-radius: 10px;
+    margin: 5px;
+    color: #fff;
+}
+.kotak-identitas {
+    width: 100%;
+    display: flex;
+    height: 30px;
+    margin-left: 10px;
+}
+.identitas-kiri {
+    width: 28%;
+    height: auto;
+    padding: 5px;
+}
+
+.identitas-tengah {
+    width: 1%;
+    height: auto;
+    padding: 5px;
+}
+
+.identitas-kanan {
+    width: 71%;
+    height: auto;
+    padding: 5px;
+}
+
+.tabel1 {
+    font-family: sans-serif;
+    color: #4c4a4a;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #f2f5f7;
+}
+ 
+.tabel1  tr th{
+    background: rgb(0, 62, 38);
+    color: #fff;
+    font-weight: normal;
+}
+ 
+.tabel1 , th, td {
+    padding: 12px 10px;
+    text-align: center;
+}
+ 
+.tabel1  tr:hover {
+    background-color: #f5f5f5;
+}
+ 
+.tabel1  tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.kaki {
+    width: auto;
+    min-height: 20px;
+    background-color: rgb(3, 85, 53);
+    padding: 20px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+}
